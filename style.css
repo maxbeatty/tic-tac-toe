@@ -1,0 +1,30 @@
+.board {
+  width: 20%;
+  margin: 0 auto;
+}
+.row {
+  clear: left;
+}
+
+.square {
+  float: left;
+  margin: 0;
+  padding: 10px;
+  border-right: 1px solid gray;
+  border-bottom: 1px solid gray;
+}
+
+.square input {
+  width: 40px;
+  font-size: 40px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.square:last-child {
+  border-right: 0;
+}
+
+.row:last-child .square {
+  border-bottom: 0
+}
